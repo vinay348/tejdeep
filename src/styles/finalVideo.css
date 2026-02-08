@@ -1,0 +1,68 @@
+/* Base container */
+.final-container {
+  min-height: 100svh; /* safer on mobile than 100vh */
+  width: 100vw;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  text-align: center;
+  padding: clamp(24px, 6vw, 60px) clamp(16px, 5vw, 20px);
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Video */
+.final-video {
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 16 / 9;
+  border-radius: clamp(12px, 3vw, 20px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+  margin-top: clamp(20px, 5vw, 30px);
+  object-fit: contain;
+}
+
+/* Quote */
+.final-quote {
+  margin-top: clamp(24px, 6vw, 40px);
+  font-size: clamp(18px, 5vw, 24px);
+  font-family: "Dancing Script", cursive;
+  animation: fadeIn 2s ease;
+  white-space: pre-line;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 Small mobile devices */
+@media (max-width: 480px) {
+  .final-container {
+    padding: 20px 14px;
+  }
+
+  .final-quote {
+    line-height: 1.4;
+  }
+}
+
+/* 💻 Large desktops */
+@media (min-width: 1024px) {
+  .final-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}

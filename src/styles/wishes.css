@@ -1,0 +1,75 @@
+.wishes-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  text-align: center;
+  padding: 40px 16px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Subtitle */
+.subtitle {
+  margin-bottom: 24px;
+  font-size: clamp(16px, 4vw, 22px);
+  line-height: 1.5;
+}
+
+/* Videos Grid */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Video Cards */
+.videos video {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+
+/* Ending Text */
+.ending {
+  margin-top: 32px;
+  font-size: clamp(16px, 4.5vw, 22px);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* 📱 Mobile (Small screens) */
+@media (max-width: 480px) {
+  .wishes-container {
+    padding: 30px 14px;
+  }
+
+  .videos {
+    grid-template-columns: 1fr;
+  }
+
+  .ending {
+    margin-top: 24px;
+  }
+}
+
+/* 📲 Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+  .videos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 💻 Desktop */
+@media (min-width: 1024px) {
+  .wishes-container {
+    padding: 60px 40px;
+  }
+
+  .videos {
+    gap: 24px;
+  }
+}
