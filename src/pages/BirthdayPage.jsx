@@ -130,8 +130,8 @@ function BirthdayPage() {
 
         <div className="timeline">
           <div className="event">
-            <div className="date">💫 Aug 2024</div>
-            <b>The day I met you — and everything changed.</b>
+            <div className="date">💫12 Jan 2025</div>
+            <b>First meet</b>
             <p>
               That is the first time I saw you, ne pic chusaka endhuko na heart
               lo connect Ayepoyav Nakhosum e Nuvu putav anipinchav Andhuke
@@ -141,8 +141,8 @@ function BirthdayPage() {
           </div>
 
           <div className="event">
-            <div className="date">💬 Aug 2024</div>
-            <b>Our first conversation that I never wanted to end.</b>
+            <div className="date">💬22 Jan 2024</div>
+            <b>Our first call</b>
             <p>
               first ph call and chatting 😍 Aroju ne message Ragane Baga excited
               aya nitho matladaka nakhu Aroju antha matladali anipinchendhe ph
@@ -151,7 +151,7 @@ function BirthdayPage() {
           </div>
 
           <div className="event">
-            <div className="date">😊 22 Dec 2024</div>
+            <div className="date">😊 25 May 2024</div>
             <b>Our Happy Moments</b>
             <p>
               Nuvu India ochaka Nenu ninnu first Kalisi na roju Nuvu Ochina
@@ -167,7 +167,7 @@ function BirthdayPage() {
           </div>
 
           <div className="event">
-            <div className="date">😊 22 Dec 2024</div>
+            <div className="date">😊 28 May 2024</div>
             <b>Our Happy Moments</b>
             <p>
               mana engagement day aslaa Aroju matrum I meeting my man finally
